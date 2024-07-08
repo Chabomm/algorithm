@@ -1,4 +1,12 @@
-# a,b = map(int, input().split(sep='', maxsplit=3))
-# print(a)
-# b = int(385)
-# print(b[])
+A, B = map(int, input().split())
+C = int(input())
+
+if M < 45:
+    if H == 0 :
+        H = 23
+        M += 60
+    else :
+        H -= 1
+        M += 60
+
+print(H, M-45)

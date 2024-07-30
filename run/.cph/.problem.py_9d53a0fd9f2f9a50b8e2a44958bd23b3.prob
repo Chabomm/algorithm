@@ -1,1 +1,1 @@
-{"name":"Local: problem","url":"/Users/chabom/Desktop/ALGORITHM/run/problem.py","tests":[{"id":1720338534377,"input":"6 2 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/chabom/Desktop/ALGORITHM/run/problem.py","group":"local","local":true}
+{"name":"Local: problem","url":"/Users/chabom/Desktop/ALGORITHM/run/problem.py","tests":[{"id":1720338534377,"input":"4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/chabom/Desktop/ALGORITHM/run/problem.py","group":"local","local":true}

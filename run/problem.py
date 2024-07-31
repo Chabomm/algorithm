@@ -57,14 +57,57 @@
 #     print("No")
 
 # beakjoon 25314
-N = int(input())
-a = N//4
-print("long " * a + "int")
-# for i in range(N//4):
+# N = int(input())
+# a = N//4
+# print("long " * a + "int")
+# # for i in range(N//4):
     
-    
+# ----- beackjoon 15552 -----
+import sys
 
+# T = int(sys.stdin.readline().rstrip())
 
+# for _ in range(T):
+#     A, B = map(int, sys.stdin.readline().rstrip().split())
+#     print(A+B)
 
+# ----- beakjoon 11021 -----
+# T = int(sys.stdin.readline().rstrip())
+# for i in range(T):
+#     A, B = map(int, sys.stdin.readline().rstrip().split())
+#     print("Case #"+str(i+1)+": "+ str(A+B))
+
+#  ----- beakjoon 11022 -----
+# T = int(sys.stdin.readline().rstrip())
+# for i in range(T):
+#     A, B = map(int, sys.stdin.readline().rstrip().split())
+#     print("Case #"+str(i+1)+": "+str(A)+" + "+str(B)+ " = "+ str(A+B))
+
+# ----- beakjoon 2438 -----
+# A = int(input())
+# for i in range(A):
+#     print((i+1)*"*")
+
+# ----- beakjoon 2439 -----
+# A = int(input())
+# for i in range(A):
+#     print(" "*(A-(i+1)) + (i+1)*"*")
+
+# ----- beakjoon 10952 -----
+# while True:  # True or 1 로 적으면 계속 반복!!
+#     A, B = map(int, input().split())
+#     if A == 0 and B == 0 :
+#         break
+#     else:
+#         print(A+B)
+
+# ----- beakjoon 10951 -----
+# while True:
+#     try:
+#         A, B = map(int, input().split())
+#         print(A+B)
+#     except:
+        # break
+        
 
 

@@ -108,6 +108,49 @@ import sys
 #         print(A+B)
 #     except:
         # break
+
+# ----- beakjoon 10807 -----
+# N = int(input())
+# A = list(map(int, input().split()))
+# V = int(input())
+
+# print(A.count(V))
+# !!!!!!! count: python 리스트 내장 메소드 count()는 매개변수로 입력된 값이 리스트 안에 몇개 있는지 세어 반환해준다.
+# counter = 0
+
+# for i in A:
+#     if i == V :
+#         counter += 1
+# print(counter)
+
+# ----- beakjoon 10871 -----
+# N, X = map(int, input().split())
+# A = list(map(int, input().split()))
+# for i in A:
+#     if i < X :
+#         print(i, end=" ")
+
+# ----- beakjoon 10818 -----
+# N = int(input())
+# list_a = list(map(int, input().split()))
+# print(min(list_a), max(list_a))
+
+# ----- beakjoon 2562 -----
+# numbers = []
+# for _ in range(9):
+#         try:
+#                 numbers.append(int(input()))
+#         except:
+#                 break
+
+# print(max(numbers))
+# print(numbers.index(max(numbers))+1)
+
+# ---- beakjoon 10810 -----
+
+
+
+    
         
 
 

@@ -148,18 +148,60 @@ import sys
 
 # ---- beakjoon 10810 -----
 
-처음 시작 시 n과 m을 입력받고 길이가 n인 리스트를 만든다.
-n, m  = map(int, input().split()) #n, m 입력받기
-basket = [0]*n # 길이가 n인 리스트 생성
+# 처음 시작 시 n과 m을 입력받고 길이가 n인 리스트를 만든다.
+# n, m  = map(int, input().split()) #n, m 입력받기
+# basket = [0]*n # 길이가 n인 리스트 생성
 
-for _ in range(m): # m번 만큼 공을 넣을꺼니까
-        i, j, k = map(int, input().split())
-        for target in range(i,j+1): # j까지면 j앞까지만 해당되므로 j+1을 해준다
-                basket[target-1] = k #바구니를 k로 치환, basket(리스트 인덱스)는 0부터 시작하고 target은 1부터 시작하니까 -1로 싱크를 맞춰준다
-                print(basket)
+# for _ in range(m): # m번 만큼 공을 넣을꺼니까
+#         i, j, k = map(int, input().split())
+#         for target in range(i,j+1): # j까지면 j앞까지만 해당되므로 j+1을 해준다
+#                 basket[target-1] = k #바구니를 k로 치환, basket(리스트 인덱스)는 0부터 시작하고 target은 1부터 시작하니까 -1로 싱크를 맞춰준다
+#                 print(basket)
 
-basket = map(str,basket) #공백구분을 해주기 위해 str로 만들어준다
-print(" ".join(basket)) #join함수를 이용하여 출력
+# basket = map(str,basket) #공백구분을 해주기 위해 str로 만들어준다
+# print(" ".join(basket)) #join함수를 이용하여 출력
+
+
+
+# N, M = map(int, input().split())
+# list_a = [0]*N
+
+# for _ in range(M) :
+#         i, j, k = map(int, input().split())
+#         for target in range(i, j+1) :
+#                 list_a[target-1] = k
+        
+# list_a = map(str,list_a)
+# print(" ".join(list_a))
+
+# ---- beakjoon 10813 -----
+# N, M = map(int, input().split())
+# basket = [i for i in range(1, N+1)]
+
+# for _ in range(M):
+#         i, j = map(int, input().split())
+#         basket[i-1], basket[j-1] = basket[j-1], basket[i-1]
+
+# basket = map(str, basket)
+# print(" ".join(basket))
+
+
+# ---- beakjoon 5597 -----
+
+list_a = [i for i in range(1, 31)]  # 학생이 30명이니까 1 ~ 30까지의 리스트를 만들어준다
+for i in range(28): # 28명만 과제 제출을 했으니 28번만 돌면 됨
+        data = int(input())  #과제를 제출한 28명 입력받음
+        list_a.remove(data) # 1~30에서 제출한 28명을 지운다
+
+# list_a = map(str, list_a)
+# print("\n".join(list_a))
+print(min(list_a))
+print(max(list_a))
+
+
+
+
+
 
 
     
